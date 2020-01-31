@@ -85,128 +85,13 @@
                     <img src="img/logo.png" alt="" class="img-fluid">
                 </div>
                 <div class="col-12 col-sm-3 align-self-center">
-                    <a type="button" class="btn btn-warning btn-block btn-sm" data-toggle="modal" data-target="#reserveTable" href="#reserveTable" role="button">Reserve Table</a>
+                    <a type="button" class="btn btn-warning btn-block btn-sm" data-toggle="tooltip" data-html="true" title="Or Call us at <br><<strong>+587 1234567</strong>" data-placement="bottom" href="#reserveTable" role="button">Reserve Table</a>
                 </div>
             </div>
         </div>
     </header>
-    
-    <div id="reserveTable" class="modal fade" role="dialog">
-        <div class="modal-dialog" role="content">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h3 class="modal-title">Reserve a Table</h3>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class="modal-body">
-                   <form action="">
-                       <div class="form-group row">
-                           <label for="lastname" class="col-sm-3 col-form-label">Number of Guests</label>
-                            <div class="col-sm-8">
-                                <div class="form-radio">
-                                    <input type="radio" class="form-radio-input" name="guest1" id="guest1" value="">
-                                    <label class="form-radio-label" for="guest1">1&nbsp;&nbsp;</label>
-                                    <input type="radio" class="form-radio-input" name="guest2" id="guest2" value="">
-                                    <label class="form-radio-label" for="guest2">2&nbsp;&nbsp;</label>
-                                    <input type="radio" class="form-radio-input" name="guest3" id="guest3" value="">
-                                    <label class="form-radio-label" for="guest3">3&nbsp;&nbsp;</label>
-                                    <input type="radio" class="form-radio-input" name="guest4" id="guest4" value="">
-                                    <label class="form-radio-label" for="guest4">4&nbsp;&nbsp;</label>
-                                    <input type="radio" class="form-radio-input" name="guest5" id="guest5" value="">
-                                    <label class="form-radio-label" for="guest5">5&nbsp;&nbsp;</label>
-                                    <input type="radio" class="form-radio-input" name="guest6" id="guest6" value="">
-                                    <label class="form-radio-label" for="guest6">6&nbsp;&nbsp;</label>
-                                </div>  
-                            </div>
-                       </div>
-                       <div class="form-group row">
-                           <label for="lastname" class="col-sm-3 col-form-label">Section</label>
-                           <div class="col-12 col-sm-4">
-                               <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                                    <label class="btn btn-success">
-                                        <input type="radio" name="options" id="option2" active> Non-Smoking
-                                    </label>
-                                  <label class="btn btn-danger">
-                                    <input type="radio" name="options" id="option3"> Smoking
-                                  </label>
-                               </div>
-                           </div>
-                       </div>
-                       <div class="form-group row">
-                            <label for="date" class="col-sm-3 col-form-label">Date and Time</label>
-                            <div class="col-12 col-sm-4">
-                            <input type="text" class="form-control" id="date" name="date" placeholder="Date">
-                            </div>
-                            <div class="col-12 col-sm-4">
-                                <input type="text" class="form-control" id="time" name="time" placeholder="Time">
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <div class="offset-sm-3 col-sm-7">
-                               <button type="submit" class="btn btn-secondary">Cancel</button>
-                               <button type="submit" class="btn btn-primary">Reserve</button> 
-                            </div>
-                        </div>
-                   </form> 
-                </div>
-            </div>
-        </div>
-    </div>
 
     <div class="container">
-       <div class="row row-content">
-           <div class="col">
-               <div id="mycarousel" class="carousel slide" data-ride="carousel">
-                   <div class="carousel-inner" role="listbox">
-                      <div class="carousel-item active">
-                         <img class="d-block img-fluid" src="img/uthappizza.png" alt="uthapizza"> 
-                         <div class="carousel-caption d-none d-md-block">
-                            <h2>Uthappizza <span class="badge badge-danger">HOT</span><span class="badge badge-pill badge-secondary">$4.99</span></h2>
-                            <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p> 
-                         </div>
-                      </div> 
-                      <div class="carousel-item ">
-                         <img class="d-block img-fluid" src="img/buffet.png" alt="buffet"> 
-                         <div class="carousel-caption d-none d-md-block">
-                            <h2>Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
-                            <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
-                         </div> 
-                      </div> 
-                      <div class="carousel-item ">
-                          <img class="d-block img-fluid" src="img/alberto.png" alt="alberto"> 
-                          <div class="carousel-caption d-none d-md-block">
-                                <h2>Alberto Somayya</h2>
-                                <h4>Executive Chef</h4>
-                                <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
-                          </div>
-                      </div> 
-                   </div>
-                   <ol class="carousel-indicators">
-                       <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-                       <li data-target="#mycarousel" data-slide-to="1"></li>
-                       <li data-target="#mycarousel" data-slide-to="2"></li>
-                   </ol>
-                   <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
-                       <span class="carousel-control-prev-icon"> 
-                       </span>
-                   </a>
-                   <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
-                       <span class="carousel-control-next-icon"> 
-                       </span>
-                   </a>
-                   <div class="btn-group" id="carouselButton">
-                       <button type="button" class="btn btn-danger btn-small" id="carousel-pause">
-                           <span class="fa fa-pause"></span>
-                       </button>
-                       <button type="button" class="btn btn-danger btn-small" id="carousel-play">
-                           <span class="fa fa-play"></span>
-                       </button>
-                   </div>
-               </div>
-           </div>
-       </div>
-       
-        <div class="container">
         <div class="row row-content align-items-center">
             <div class="col-12 col-sm-4 order-sm-last col-md-3">
                 <h3>Our Lipsmacking Culinary Creations</h3>
@@ -251,9 +136,8 @@
             </div>
         </div>
     </div>
-    </div>
     
-    <div class="container">
+    <div class="container" id="reserveTable">
        <div class="row row-content">
           <div class="col-12 col-sm-8 offset-sm-2">
              <div class="card">
@@ -347,14 +231,8 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script>
         $(document).ready(function() {
-            $('#mycarousel').carousel({ interval: 2000 });
-            $('#carousel-pause').click(function(){
-                $('#mycarousel').carousel('pause');  
-            });
-            $('#carousel-play').click(function(){
-                $('#mycarousel').carousel('cycle');  
-            });
-        })
+           $('[data-toggle="tooltip"]').tooltip();  
+        });
     </script>
 </body>
 
